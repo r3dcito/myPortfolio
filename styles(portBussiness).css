@@ -1,0 +1,93 @@
+body {
+    font-family: "disket-mono", monospace;
+    margin: 0;
+    padding: 0;
+	text-align: center;
+	color: black;
+}
+
+.header {
+    background: url('header2.png') center center/cover;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    font-family: "disket-mono", monospace;
+    align-items: flex-start;
+    min-height: 400px;
+}
+
+.header-img {
+    max-width: 100%;
+    height: 90%;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: auto; /* Ajusta según sea necesario para el espacio por encima del logo */
+}
+
+.logo-circle {
+    width: 200%;
+    height: 200%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo img {
+    width: 100%;
+}
+
+/* Aplicar el fondo semitransparente */
+.logo-circle::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: -5;
+}
+
+.header-content {
+    margin-left: 100px;
+    margin-top: auto; /* Ajusta según sea necesario para el espacio por encima del texto */
+}
+
+h2, h3 {
+    color: #333;
+}
+
+
+section {
+    margin: 40px 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+.nombre {
+	color: linear-gradient(to right, black, white);
+	
+}
+.desc {
+	color: white;
+	
+}
+#about #skills #portfolio {
+	color: black;
+	font-family: "disket-mono", monospace;
+	
+}
+	
